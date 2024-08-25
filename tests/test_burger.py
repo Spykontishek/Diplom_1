@@ -53,3 +53,5 @@ class TestBurger:
         receipt = burger.get_receipt()
         assert receipt == '(==== Bulka ====)\n= filling Cheese =\n= sauce Ketchup =\n(==== Bulka ====)\n\nPrice: 17.0'
 
+
+
