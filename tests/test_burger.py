@@ -3,7 +3,7 @@ from burger import Burger
 from bun import Bun
 from ingredient import Ingredient
 
-class TestIngredient:
+class TestBurger:
     def test_set_buns(self):
         burger = Burger()
         bun = Bun("Bulka", 5.5)
